@@ -25,8 +25,9 @@
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
 
-	<link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="${PageContext.request.contextPath }/resources/css/animate.css">
@@ -116,7 +117,7 @@
 					<div class="col-md-5 animate-box">
 						<div class="owl-carousel3">
 							<div class="item">
-								<img class="img-responsive about-img" src="${PageContext.request.contextPath }/resources/images/about.jpg" alt="html5 bootstrap template by colorlib.com">
+								<img class="img-responsive about-img" src="${PageContext.request.contextPath }/resources/images/profile.jpg" alt="html5 bootstrap template by colorlib.com">
 							</div>
 						</div>
 					</div>
@@ -124,22 +125,22 @@
 						<div class="about-desc">
 							<div class="owl-carousel3">
 								<div class="item">
-									<h2><span>Noah</span><span>Henderson</span></h2>
+									<h2><span>신입 백엔드 개발자</span><!-- <span>Henderson</span> --></h2>
 								</div>
 								<div class="item">
-									<h2><span>I'm</span><span>A Designer</span></h2>
+									<h2><span><font color="#CA82F8">고은비</font>입니다.</span></h2> 
 								</div>
 							</div>
-							<div class="desc">
-								<div class="rotate">
-									<h2 class="heading">About</h2>
-								</div>
-								<p>A small river named Duden <a href="#">flows by their place</a> and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
+							<div class="">
+								<div> <h3> 이제 막 개발자로 첫발을 뗀  개발자 고은비입니다.</h3></div> 
+								<h4>JAVA, JSP, JavaScript, MySQL, Git, Spring Framework 등의 기술을 사용하여 웹 프로젝트를 진행한 적이 있습니다.</h4>
+								<h4>JAVA, JSP, JavaScript, MySQL, Git, Spring Framework 등의 기술을 사용하여 웹 프로젝트를 진행한 적이 있습니다.</h4>
 								<p class="colorlib-social-icons">
-									<a href="#"><i class="icon-facebook4"></i></a>
-									<a href="#"><i class="icon-twitter3"></i></a>
-									<a href="#"><i class="icon-googleplus"></i></a>
-									<a href="#"><i class="icon-dribbble2"></i></a>
+									<a href="#"><i class="fa-solid fa-envelope" style="width: 30px;"></i></a> 3unbbb@gmail.com <br>
+									<a href="#"><i class="fa-brands fa-github" style="width: 30px;"></i></a> github.com/3unbbb <br>
+									<a href="#"><i class="fa-solid fa-phone" style="width: 30px;"></i></a> 010-4549-2013 <br>
+									<a href="#"><i class="fa-solid fa-house" style="width: 30px;"></i></a> 부산광역시 부산진구 전포동 <br>
+ 									<!-- <a href="#"><i class="fa-solid fa-t"  style="width: 30px;"></i></a>  3unbbb.tistory.com/<br> -->
 								</p>
 								<p><a href="#" class="btn btn-primary btn-outline">Contact Me!</a></p>
 							</div>
@@ -151,67 +152,130 @@
 		<div id="colorlib-services">
 			<div class="container">
 				<div class="row text-center">
-					<h2 class="bold">Services</h2>
+					<h2 class="bold">About me</h2> 
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<div class="services-flex">
+						<div class="">
 							<div class="one-third">
 								<div class="row">
 									<div class="col-md-12 col-md-offset-0 animate-box intro-heading">
-										<span>My Services</span>
-										<h2>Here Are Some of My Skills</h2>
+										<h2 style="color: rgb(202, 130, 248);">About me!</h2>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-12">
-										<div class="rotate">
-											<h2 class="heading">Services</h2>
-										</div>
-									</div>
 									<div class="col-md-6">
 										<div class="services animate-box">
-											<h3>1 - Graphic Design</h3>
+											<h3>Education</h3>
 											<ul>
-												<li>UI Design</li>
-												<li>Website &amp; Digital Design</li>
-												<li>Brading &amp; Visual Identity</li>
-												<li>Print Design</li>
+												<li>2013.03 ~ 2019.08 창원대학교 경영학과 졸업</li>
+												<li>2022.02 ~ 2022.07 부산아이티윌 핀테크기반 e-커머스 개발자 과정 수료</li>
 											</ul>
 										</div>
 										<div class="services animate-box">
-											<h3>3 - Front End Development</h3>
+											<h3>Certification</h3>
 											<ul>
-												<li>HTML / CSS</li>
-												<li>JS &amp; Jquery Startup</li>
-												<li>WordPress</li>
-												<li>Jomla</li>
+												<li>컴퓨터 활용 능력 2급</li>
+												<li>워드프로세서 1급</li>
+												<li>토익(710)</li>
+												<li>정보처리기사 필기...?</li>
 											</ul>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="services animate-box">
-											<h3>2 - Illustration</h3>
+											<h3>Project</h3>
 											<ul>
-												<li>Editorial</li>
-												<li>Narrative</li>
-												<li>Motion Graphics</li>
-												<li>Animation</li>
-												<li>Visual Effects</li>
+												<li>JOINUS : 팀프로젝트- 소모임 웹페이지 제작</li>
 											</ul>
 										</div>
 										<div class="services animate-box">
-											<h3>4 - Web Marketing</h3>
+											<h3>Experiences</h3>
 											<ul>
-												<li>Sales Marketing</li>
-												<li>Invoice</li>
-												<li>eCommerce</li>
+												<li>부산시티센터</li>
+													<ul>
+														<li>2019.11 ~ 2021.01 (1년 3개월)</li>
+														<li>인사팀(사원)</li>
+													</ul>
+												<li>carTi</li>
+													<ul>
+														<li>2021.04 ~ 2021.12 (9개월)</li>
+														<li>경영관리팀(사원)</li>
+													</ul>
 											</ul>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="one-forth services-img" style="background-image: url(./resources/images/services-img-1.jpg);">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="colorlib-services">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">Skills</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="">
+							<div class="one-third">
+								<div class="row">
+									<div class="col-md-12 col-md-offset-0 animate-box intro-heading">
+										<h1 style="color: rgb(202, 130, 248);">My Skills</h1>
+										<div class="col-md-6"><h4>1️⃣: 관련 도서를 읽은 경험이 있음</h4>
+										<h4>2️⃣: 간단한 토이 프로젝트를 진행 할 수 있음</h4></div>
+										<h4>3️⃣: 실제 프로젝트를 진행한 경험이 있음</h4>
+										<h4>4️⃣: 바로 프로젝트 투입이 가능함</h4>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="services animate-box">
+											<h3>1 - Back End</h3>
+											<ul>
+												<li>JAVA 8 3️⃣</li>
+												<li>JSP</li>
+											</ul>
+										</div>
+										<div class="services animate-box">
+											<h3>4 - DataBaase</h3>
+											<ul>
+												<li>MySQL 8.0 3️⃣</li>
+												<li>Oracle 2️⃣ </li>
+											</ul>
+										</div>
+
+									</div>	
+									<div class="col-md-4">		
+										<div class="services animate-box">
+											<h3>2 - Front End</h3>
+											<ul>
+												<li>HTML5 / CSS3 3️⃣</li>
+												<li>JS 3️⃣</li>
+
+											</ul>
+										</div>							
+										<div class="services animate-box">
+											<h3>5 - ETC</h3>
+											<ul>
+												<li>Git 3️⃣</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="services animate-box">
+											<h3>3 - Framwork</h3>
+											<ul>
+												<li>Spring Tools 4 3️⃣</li>
+												<li>MyBatis 3️⃣</li>
+												<li>jQuery 3️⃣</li>
+											</ul>
+										</div>
+									</div>
+									
+								</div>
 							</div>
 						</div>
 					</div>
@@ -222,73 +286,51 @@
 		<div id="colorlib-work">
 			<div class="container">
 				<div class="row text-center">
-					<h2 class="bold">Works</h2>
+					<h2 class="bold">Project</h2>
 				</div>
 				<div class="row">
 					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-						<span>Portfolio</span>
-						<h2>Done Projects</h2>
+						<h2>Projects</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<div class="rotate">
-							<h2 class="heading">Portfolio</h2>
-						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-6">
 						<div class="work-entry animate-box">
-							<a href="work.html" class="work-img" style="background-image: url(./resources/images/work-1.jpg);">
+							<a href="http://itwillbs6.cafe24.com/" target="_blank" class="work-img" style="background-image: url(./resources/images/main.jpg);">
 								<div class="display-t">
 									<div class="work-name">
-										<h2>Pursuing Best</h2>
+										<h2>itwillbs6.cafe24.com</h2>
 									</div>
 								</div>
 							</a>
-							<div class="col-md-4 col-md-offset-4">
-								<div class="desc">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-									<p class="read"><a href="#">View details</a></p>
-								</div>
-							</div>
 						</div>
 					</div>
-					<div class="col-md-12">
-						<div class="work-entry animate-box">
-							<a href="work.html" class="work-img" style="background-image: url(./resources/images/work-2.jpg);">
-								<div class="display-t">
-									<div class="work-name">
-										<h2>Coordinates</h2>
-									</div>
-								</div>
-							</a>
-							<div class="col-md-4 col-md-offset-4">
-								<div class="desc">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-									<p class="read"><a href="#">View Details</a></p>
-								</div>
-							</div>
-						</div>
+					<div class="col-md-6">
+						<h2><p>JOINUS</p></h2>
+						<p>개발기간 : 22.06.23 ~ 22.07.27</p>
+						<p>JOINUS는 지역기반 소모임 웹사이트입니다.</p>
+						<p>제가 구현한 기능은 모임리스트, 모임관리, 정모기능입니다.</p>
+						<p>스프링부트 기반으로 제작했으며, 개발환경은 아래와 같습니다.</p>
+						<p>
+						<ul>
+							<li>개발언어 : Java8, JSP, HTML5, CSS3, js3 </li>
+							<li>프레임워크 : Spring tools 4, MyBatis3, JQuery3 </li>
+							<li>서버 : Tomcat8.5 </li>
+							<li>DB : MySQL </li>
+							<li>OS : Windows10 64bit </li>
+							<li>Hosting : Cafe24 </li>
+							<li>ETC : git, sourcetree, figma, discord </li>
+						</ul>
+						<p>깃허브 주소 : <a href="https://github.com/impath96/joinus" target="_blank">github.com/impath96/joinus</a></p>
+						<p>개발문서 : <a href="https://github.com/impath96/joinus/wiki" target="_blank">github.com/impath96/joinus/wiki</a></p>
+						</p>
+						<p class="read"><a href="#">자세히보기</a></p>
 					</div>
-					<div class="col-md-12">
-						<div class="work-entry animate-box">
-							<a href="work.html" class="work-img" style="background-image: url(./resources/images/work-3.jpg);">
-								<div class="display-t">
-									<div class="work-name">
-										<h2>Cristall</h2>
-									</div>
-								</div>
-							</a>
-							<div class="col-md-4 col-md-offset-4">
-								<div class="desc">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-									<p class="read"><a href="#">View details</a></p>
-								</div>
-							</div>
-						</div>
-					</div>
+
 					<div class="col-md-12">
 						<div class="work-entry animate-box">
 							<a href="work.html" class="work-img" style="background-image: url(./resources/images/work-4.jpg);">
@@ -310,139 +352,7 @@
 			</div>
 		</div>
 
-		<div id="colorlib-blog">
-			<div class="container">
-				<div class="row text-center">
-					<h2 class="bold">Blog</h2>
-				</div>
-				<div class="row">
-					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-						<span>Blog</span>
-						<h2>Read Our Case</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="rotate">
-							<h2 class="heading">Our Blog</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row animate-box">
-					<div class="owl-carousel1">
-						<div class="item">
-							<div class="col-md-12">
-								<div class="article">
-									<a href="blog.html" class="blog-img">
-										<img class="img-responsive" src="${PageContext.request.contextPath }/resources/images/img-1.jpg" alt="html5 bootstrap by colorlib.com">
-										<div class="overlay"></div>
-										<div class="link">
-											<span class="read">Read more</h2>
-										</div>
-									</a>
-									<div class="desc">
-										<span class="meta">15, Feb 2018</span>
-										<h2><a href="blog.html">A Japanese Constellation</a></h2>
-										<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="col-md-12">
-								<div class="article">
-									<a href="blog.html" class="blog-img">
-										<img class="img-responsive" src="${PageContext.request.contextPath }/resources/images/img-2.jpg" alt="html5 bootstrap by colorlib.com">
-										<div class="overlay"></div>
-										<div class="link">
-											<span class="read">Read more</h2>
-										</div>
-									</a>
-									<div class="desc">
-										<span class="meta">15, Feb 2018</span>
-										<h2><a href="blog.html">A Japanese Constellation</a></h2>
-										<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="col-md-12">
-								<div class="article">
-									<a href="blog.html" class="blog-img">
-										<img class="img-responsive" src="${PageContext.request.contextPath }/resources/images/img-3.jpg" alt="html5 bootstrap by colorlib.com">
-										<div class="overlay"></div>
-										<div class="link">
-											<span class="read">Read more</h2>
-										</div>
-									</a>
-									<div class="desc">
-										<span class="meta">15, Feb 2018</span>
-										<h2><a href="blog.html">A Japanese Constellation</a></h2>
-										<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<div id="colorlib-testimony">
-			<div class="container">
-				<div class="row text-center">
-					<h2 class="bold">Testimonies</h2>
-				</div>
-				<div class="row">
-					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
-						<span>Testimonies</span>
-						<h2>Clients Says</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="rotate">
-							<h2 class="heading">Says</h2>
-						</div>
-					</div>
-				</div>
-				<div class="row animate-box">
-					<div class="owl-carousel">
-						<div class="item">
-							<div class="col-md-12 text-center">
-								<div class="testimony">
-									<blockquote>
-										<p>"A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-										<span>" &mdash; George Brooks</span>
-									</blockquote>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="col-md-12 text-center">
-								<div class="testimony">
-									<blockquote>
-										<p>"Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-										<span>" &mdash; Daniel Foster</span>
-									</blockquote>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="col-md-12 text-center">
-								<div class="testimony">
-									<blockquote>
-										<p>"When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove</p>
-										<span>" &mdash; Liam Jenkins</span>
-									</blockquote>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 
 		<footer>
 			<div id="footer">
