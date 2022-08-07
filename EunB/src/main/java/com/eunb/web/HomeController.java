@@ -35,4 +35,18 @@ public class HomeController {
 		return "Eunb";
 	}
 	
+	@RequestMapping(value = "/project", method = RequestMethod.GET)
+	public String detail(Locale locale, Model model) {
+		logger.info("Welcome home! The client locale is {}.", locale);
+		logger.info("project!");
+		
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+		
+		String formattedDate = dateFormat.format(date);
+		
+		model.addAttribute("serverTime", formattedDate );
+		return "project";
+	}
+	
 }

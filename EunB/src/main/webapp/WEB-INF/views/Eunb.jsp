@@ -312,8 +312,10 @@
 					<div class="col-md-6">
 						<h2><p>JOINUS</p></h2>
 						<p>개발기간 : 22.06.23 ~ 22.07.27</p>
-						<p>JOINUS는 지역기반 소모임 웹사이트입니다.</p>
-						<p>제가 구현한 기능은 모임리스트, 모임관리, 정모기능입니다.</p>
+						<p>JOINUS는 지역기반 소모임 웹사이트로, <br>
+							같은 취미를 하는 <font color="#CA82F8">모임</font>을 만들고 모임의 <font color="#CA82F8">일정(정모)관리</font>와 <br>
+							<font color="#CA82F8">장소대관</font>까지 할 수 있습니다.</p>
+						<p>제가 구현한 기능은  <font color="#CA82F8">모임리스트, 모임관리, 정모기능</font>입니다.</p>
 						<p>스프링부트 기반으로 제작했으며, 개발환경은 아래와 같습니다.</p>
 						<p>
 						<ul>
@@ -328,26 +330,14 @@
 						<p>깃허브 주소 : <a href="https://github.com/impath96/joinus" target="_blank">github.com/impath96/joinus</a></p>
 						<p>개발문서 : <a href="https://github.com/impath96/joinus/wiki" target="_blank">github.com/impath96/joinus/wiki</a></p>
 						</p>
-						<p class="read"><a href="#">자세히보기</a></p>
+						<p class="read"><a href="${PageContext.request.contextPath }/project">자세히보기 ➡</a></p>
 					</div>
+					
+					
+					
+					
+					
 
-					<div class="col-md-12">
-						<div class="work-entry animate-box">
-							<a href="work.html" class="work-img" style="background-image: url(./resources/images/work-4.jpg);">
-								<div class="display-t">
-									<div class="work-name">
-										<h2>Black</h2>
-									</div>
-								</div>
-							</a>
-							<div class="col-md-4 col-md-offset-4">
-								<div class="desc">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-									<p class="read"><a href="#">View details</a></p>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
