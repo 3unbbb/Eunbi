@@ -53,8 +53,16 @@
 					<div class="col-md-12">
 						<div class="colorlib-navbar-brand">
 							<a class="colorlib-logo" href="${PageContext.request.contextPath }/"><span>Eun</span><span>Bi</span></a>
+							<br>
 						</div>
 					</div>
+				</div>
+				<div>
+					<img class="img-responsive about-img" src="${PageContext.request.contextPath }/resources/images/page1.jpg">
+					<img class="img-responsive about-img" src="${PageContext.request.contextPath }/resources/images/page2.jpg">
+					<img class="img-responsive about-img" src="${PageContext.request.contextPath }/resources/images/page3.jpg">
+					<img class="img-responsive about-img" src="${PageContext.request.contextPath }/resources/images/page4.jpg">
+					<img class="img-responsive about-img" src="${PageContext.request.contextPath }/resources/images/page5.jpg">
 				</div>
 			</div>
 		</header>
